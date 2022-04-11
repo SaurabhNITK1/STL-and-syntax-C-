@@ -1,0 +1,15 @@
+#################### string.resize(length, characterToInitialize)     :   How to initialize string with a particular size  #####################################
+
+string createEmptyStringFilledwith$(int length) {
+        string newString;
+        newString.clear();
+        newString.resize(length, '$');
+        return newString;
+     }
+     
+     
+     
+################### string.clear() ##############################################################################################################################
+
+clear(): Erases all the contents of the string and assign an empty string (“”) of length zero. Its time complexity is O(1).
+
